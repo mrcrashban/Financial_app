@@ -6,4 +6,7 @@
     <string name="accounts">Счета</string>
     <string name="categories">Категории</string>
     <string name="regular_pays">Регулярные платежи</string>
+    <string name="adding_money">Добавление дохода</string>
+    <string name="hint_add">Введите сумму</string>
+    <string name="add">Добавить</string>
 </resources>
