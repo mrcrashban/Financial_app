@@ -45,7 +45,7 @@
             tools:ignore="TextContrastCheck" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/button_sub"
             android:layout_width="match_parent"
             android:layout_height="60sp"
             android:layout_marginStart="6sp"

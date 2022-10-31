@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btnGoAdd;
+    private Button btnGoAdd, btnGoSub;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -21,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
         btnGoAdd.setOnClickListener(
                 v -> {
                     Intent intent = new Intent("com.example.financial_app.Moneyadd");
+                    startActivity(intent);
+                }
+        );
+        btnGoSub = findViewById(R.id.button_sub);
+        btnGoSub.setOnClickListener(
+                v -> {
+                    Intent intent = new Intent("com.example.financial_app.Moneysub");
                     startActivity(intent);
                 }
         );
