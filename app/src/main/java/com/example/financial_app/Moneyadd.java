@@ -16,11 +16,5 @@ public class Moneyadd extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moneyadd);
-        btnBack = findViewById(R.id.imageButton3);
-        btnBack.setOnClickListener(view -> goToMain(view) );
-    }
-    public void goToMain (View view){
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
     }
 }

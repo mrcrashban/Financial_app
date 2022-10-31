@@ -56,18 +56,4 @@
             tools:ignore="TextContrastCheck" />
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:backgroundTint="@color/app_background"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:contentDescription="TODO" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
