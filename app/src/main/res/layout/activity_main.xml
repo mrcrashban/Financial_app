@@ -73,7 +73,7 @@
             tools:ignore="TextContrastCheck" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_account"
             android:layout_width="match_parent"
             android:layout_height="60sp"
             android:layout_marginStart="6sp"
